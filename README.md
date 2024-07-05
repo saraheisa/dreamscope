@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DreamScope AI
 
-## Getting Started
+DreamScope AI is an AI-powered dream journal app that allows users to log their dreams and receive deep insights about recurring themes, emotions, and subconscious thoughts. This project showcases full-stack development skills, AI integration, and user experience design, making it a unique addition to your portfolio.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dream Entry Logging:** Users can write detailed descriptions of their dreams and categorize them by tags.
+- **AI Analysis:** Uses Natural Language Processing (NLP) to analyze dream entries, providing sentiment analysis and identifying recurring themes.
+- **Insights and Reports:** Generates daily, weekly, and monthly reports on dream patterns with visualizations.
+- **Mood Integration:** Correlates dream analysis with mood tracking to provide personalized insights.
+- **Community Sharing:** Allows users to share anonymized dream entries and discuss them with the community.
+- **Security and Privacy:** Ensures strong data encryption and user authentication for privacy.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB or PostgreSQL
+- **AI/ML Integration:** Python, TensorFlow, Hugging Face’s Transformers
+- **Mobile:** React Native or Flutter (for future mobile app support)
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Node.js (v14 or later)
+- npm or yarn
+- MongoDB (if using MongoDB)
+- Python (for AI/ML integration)
 
-## Deploy on Vercel
+### Steps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/yourusername/dreamscope-ai.git
+   cd dreamscope-ai
+   ```
+
+2. **Install Dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables:**
+   Create a `.env` file in the root directory and add the necessary environment
+   ```bash
+   NODE_ENV=development
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   ```
+4. Start the Development Server:
+   ```bash
+   npm run dev
+   ```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
