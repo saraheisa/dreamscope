@@ -12,7 +12,7 @@ export default function Home() {
           dream entries, providing deep insights and helping you understand your
           subconscious mind.
         </p>
-        <Link href="/journal">
+        <Link href="/app">
           <button className="animated-background bg-gradient-to-bl from-primary to-secondary text-white font-bold py-3 px-6 rounded-lg shadow-2xl transition duration-300 hover:shadow-sm">
             Start Journaling Now
           </button>
