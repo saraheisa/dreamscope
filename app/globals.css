@@ -5,9 +5,9 @@
 .animated-background {
   background-size: 400%;
 
-  -webkit-animation: animation 5s ease-in-out infinite;
-  -moz-animation: animation 5s ease-in-out infinite;
-  animation: animation 5s ease-in-out infinite;
+  -webkit-animation: animation 3s ease-in-out infinite;
+  -moz-animation: animation 3s ease-in-out infinite;
+  animation: animation 3s ease-in-out infinite;
 }
 
 .animated-background:hover {
